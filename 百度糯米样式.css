@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.w{
+    width: 1266px;
+    margin:0  auto;
+}
+li{
+    list-style: none;
+}
+/* 第一个盒子 */
+.header{
+    height: 40px;
+    background-color: #f2f2f2;
+}
+.header1{
+    float: left;
+    line-height: 40px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #666666;
+
+}
+.header1 li {
+    float: left;
+    height: 40px;
+    margin-left: 11px;
+    margin-right: 11px;
+   
+}
+.header1  li .loginbar {
+    text-decoration: none;
+    color:#be8c4a;
+}
+.header .header1 .regsiter{
+   text-decoration: none;
+   color: #666666;
+}
+.header2{
+    float: right;
+    margin-right: 8px;
+}
+.header2 li{
+    float: left;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+.header2 li a,
+.header2 li{
+    text-decoration: none;
+    color: #666666;
+    line-height: 40px;
+    font-size: 12px;
+}
+/* 第二个盒子 */
+.logo{
+    height: 140px;
+    
+}
+.logo img{
+    float: left;
+    width: 158px;
+    height:48px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.logo .search1{
+    float: left;
+    width: 466px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 180px;
+    border: 2px solid #caa157;
+}
+.logo .search2{
+    float: left;
+    width: 110px;
+    height: 44px;
+    margin-top: 40px;
+    background-color: #caa157;
+    border:2px solid #caa157;
+}
+/* 热映电影 */
+
+.nav span{
+    margin-left: 30px;
+    font-size: 24px;
+}
+.xxyl{
+    margin-top: 40px;
+}
+/* 电影内容框 */
+.content{
+   
+    height: 340px;
+    margin-top: 22px;
+}
+.content>ul{
+    width: 1210px;
+    height: 340px;
+    margin-left: 30px;
+    border-bottom: 1px solid #ebebeb;
+}
+#img{
+    margin-right: 0px;
+}
+.content ul li {
+    float: left;
+    
+    height: 340px;
+    width: 180px;
+    margin-right: 26px;
+}
+.content ul li p {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 20px;
+}
+/* 广告内容框 */
+.banner{
+    margin-top: 20px;
+    height: 230px;
+  
+}
+.banner>ul{
+   width: 1206px;
+   margin-left: 30px;
+   height: 230px;
+   border-bottom: 1px solid #000;
+}
+.banner ul .img{
+    margin-right: 0px;
+}
+
+.banner ul>li{
+    width: 222px;
+    float: left;
+    margin-right: 24px;
+} 
+
+.banner ul li img{
+    float: left;
+    width: 222px;
+    height: 155px;
+}
+.banner ul li span{
+    float: left;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.ly{
+    height: 340px;
+}
+.ly li{
+    margin-left: 30px;
+}
+.ly li img{
+    float: left;
+    margin-right: 24px;
+    width: 386px;
+    height: 340px;
+}
+.footer{
+    margin-top: 55px;
+    background-color: #f2f2f2;
+    height: 235px;
+}
+.footer ul{
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #666666;
+    margin-right: 157px;
+}
+.footer ul li {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.footer ul .msg{
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 16px;
+}
+.footer .service{
+    margin-right: 0;
+}
+.footer ul li input{
+    width: 130px;
+    height: 40px;
+    color:#bf954d;
+    border-color: #bf954d;
+}
